@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/hedramall/static/css/main.eeea8588.css",
+    "main.js": "/hedramall/static/js/main.08026dc7.js",
+    "static/js/453.f01195fd.chunk.js": "/hedramall/static/js/453.f01195fd.chunk.js",
+    "static/media/1 (4).png": "/hedramall/static/media/1 (4).6225ffe5d479cd57ee57.png",
+    "static/media/footer-bg.png": "/hedramall/static/media/footer-bg.530568c572d2ccb8dc6e.png",
+    "static/media/1 (5).png": "/hedramall/static/media/1 (5).feaab8755151b7f92ba9.png",
+    "static/media/1 (3).jpeg": "/hedramall/static/media/1 (3).a1ceb13b96971929127b.jpeg",
+    "static/media/1 (2).jpeg": "/hedramall/static/media/1 (2).346f02fbc6170a79ff6b.jpeg",
+    "static/media/1 (1).jpeg": "/hedramall/static/media/1 (1).ba9260fc635179ea933b.jpeg",
+    "static/media/loge2.png": "/hedramall/static/media/loge2.f5e866cd9ff271ace43c.png",
+    "static/media/arrow-down.png": "/hedramall/static/media/arrow-down.36dbb2516c11feb82acf.png",
+    "static/media/facebook_5968764.png": "/hedramall/static/media/facebook_5968764.49e67d43221b6bb1aa86.png",
+    "index.html": "/hedramall/index.html",
+    "static/media/download (1).svg": "/hedramall/static/media/download (1).dafd612e6cc47ceb181b.svg",
+    "static/media/download.svg": "/hedramall/static/media/download.12b105e174386c170ad8.svg",
+    "main.eeea8588.css.map": "/hedramall/static/css/main.eeea8588.css.map",
+    "main.08026dc7.js.map": "/hedramall/static/js/main.08026dc7.js.map",
+    "453.f01195fd.chunk.js.map": "/hedramall/static/js/453.f01195fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeea8588.css",
+    "static/js/main.08026dc7.js"
+  ]
+}
