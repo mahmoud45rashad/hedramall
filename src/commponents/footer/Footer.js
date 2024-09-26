@@ -3,8 +3,6 @@ import '../footer/Footer.css';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import  image1  from '../../assets/images/facebook_5968764.png';
-import  image2  from '../../assets/images/youtube_1384060.png';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
 const Footer = () => {
@@ -19,9 +17,9 @@ const Footer = () => {
                         <p>{t("aboutfooter")}.</p>
                     </div>
                     <ul className='footer-social'>
-                            <li className='facebook'><a href='https://www.facebook.com/HydraMall7/'><img src={image1} alt=''/></a></li>
+                            <li className='facebook'><a href='https://www.facebook.com/HydraMall7/'><img src='facebook_5968764.png' alt=''/></a></li>
                             <li className='xtwitter'><a href='#Home'><FontAwesomeIcon icon={faXTwitter} /></a></li>
-                            <li className='youtube'><a href='#Home'><img src={image2} alt=''/></a></li>
+                            <li className='youtube'><a href='#Home'><img src='youtube_1384060.png' alt=''/></a></li>
                             <li className='instagram'><a href='#Home'><FontAwesomeIcon icon={faInstagram} /></a></li>
                         </ul>
                 </div>

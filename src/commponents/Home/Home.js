@@ -1,11 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Accordion from 'react-bootstrap/Accordion';
-import  image1  from '../../assets/images/1 (5).png';
-import  image5  from '../../assets/images/1 (4).png';
-import  image4  from '../../assets/images/1 (3).jpeg';
-import  image3  from '../../assets/images/1 (2).jpeg';
-import  image2  from '../../assets/images/1 (1).jpeg';
 import '../Home/Home.css'
 import { useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,31 +14,31 @@ const Home = () => {
     <section id="home" className='home' >
     <Carousel fade>
       <Carousel.Item>
-        <img src={image1} alt=''/>
+        <img src='1 (5).png' alt=''/>
         <Carousel.Caption>
           {/* <a className='carousel-read' href='https://example.com'>Read More</a> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src={image2} alt=''/>
+      <img src='1 (4).png' alt=''/>
         <Carousel.Caption>
 
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src={image3} alt=''/>
+      <img src='1 (3).jpeg' alt=''/>
         <Carousel.Caption>
 
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src={image4} alt=''/>
+      <img src='1 (2).jpeg' alt=''/>
         <Carousel.Caption>
 
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src={image5} alt=''/>
+      <img src='1 (5).png' alt=''/>
         <Carousel.Caption>
 
         </Carousel.Caption>
@@ -91,8 +86,8 @@ const Home = () => {
 
             <div className='col-lg-5'>
               <div className='image-about'>
-              <img src={image1} alt=''/>
-              <img src={image5} alt=''/>
+              <img src='1 (5).png' alt=''/>
+              <img src='1 (4).png' alt=''/>
               </div>
             </div>
           </div>

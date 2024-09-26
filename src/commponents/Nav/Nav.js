@@ -6,7 +6,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faFacebook, faWhatsapp, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import loge from '../../assets/images/loge2.png';
 import '../Nav/Nav.css';
 import { faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next'; // استخدام useTranslation مرة واحدة فقط
@@ -65,7 +64,7 @@ const Navba = () => {
     </nav>
     <Navbar expand="lg" className={`${fixedMenu ? 'fixed-menu' : ''} nav-lg`}>
     <Container>
-    <Navbar.Brand href="#home" className='en'><img src={loge} alt=''/></Navbar.Brand>
+    <Navbar.Brand href="#home" className='en'><img src='loge2.png' alt=''/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="link-nav">
@@ -82,12 +81,12 @@ const Navba = () => {
         </Nav>
         
       </Navbar.Collapse>
-      <Navbar.Brand href="#home" className='ar'><img src={loge}  alt=''/></Navbar.Brand>
+      <Navbar.Brand href="#home" className='ar'><img src='loge2.png'  alt=''/></Navbar.Brand>
     </Container>
   </Navbar>
 
   <Container className='nav-md'>
-  <div className='logo-barnd'><img src={loge} alt=''/></div>
+  <div className='logo-barnd'><img src='loge2.png' alt=''/></div>
   <div className='nav-md-link'>
   <Nav className="link-nav">
         <Link className='nav-link'to="home" spy={true} smooth={true} offset={-150} duration={100} >{t('Home')}</Link>
@@ -104,7 +103,7 @@ const Navba = () => {
     <Container>
 <Navbar expand="lg" sticky='top' >
     
-        <Navbar.Brand href="#home"><img src={loge} alt=''/></Navbar.Brand>
+        <Navbar.Brand href="#home"><img src='loge2.png'alt=''/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
